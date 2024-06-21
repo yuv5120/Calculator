@@ -1,0 +1,117 @@
+/* CSS Reset & Global Styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans';
+    
+  
+  }
+  html {
+    height: 100%;
+    background-image: linear-gradient(white,rgb(40, 40, 40));
+    
+    background-size: cover;
+}
+  .wrapper {
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    padding: 20px 20px 9PX;
+    background: #0b8fcc;
+    background: linear-gradient(#0757ce, #8bceec);
+    border-radius: 35px;
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0,0,0,0.2);
+    /* height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#0757ce, #8bceec );
+    transition: 0.8s all; */
+  }
+  
+  h1 {
+    margin-bottom: 1.5%;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .container {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .top-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    padding: 25px;
+    color: rgb(33, 34, 33);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0.2em;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .fifth-row {
+    margin-bottom: 4px;
+  }
+  
+  input[type="button"] {
+    color: black;
+  }
+  
+  input[type="text"] {
+    background-color: rgb(255, 255, 255);
+    width: 222.5px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: rgb(75, 207, 230);
+    color: #fff;
+  }
+  #equal-button {
+    background-color:#18e8fff8 ;
+    color:#0a0909
+  }
+
+  #clear-button {
+    color: #0a0909;
+    background-color: #18e8fff8;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #github-icon {
+    margin-right: 10px;
+  }
+  
+  .theme-button {
+    all: unset;
+    cursor: pointer;
+  }
